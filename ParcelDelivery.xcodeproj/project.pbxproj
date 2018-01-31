@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0D302F2021E4E10066E264 /* TwodayParcel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD0D302D2021E4E10066E264 /* TwodayParcel.cpp */; };
+		CD0D30322021F55F0066E264 /* NextdayParcel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD0D30302021F55F0066E264 /* NextdayParcel.cpp */; };
 		CD10DA1D2018B25200B7A57D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD10DA1C2018B25200B7A57D /* main.cpp */; };
+		CD10DA252018B94B00B7A57D /* ParcelPerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD10DA232018B94B00B7A57D /* ParcelPerson.cpp */; };
+		CD10DA2E2018C0BA00B7A57D /* Parcel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD10DA2C2018C0BA00B7A57D /* Parcel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD0D302D2021E4E10066E264 /* TwodayParcel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwodayParcel.cpp; sourceTree = "<group>"; };
+		CD0D302E2021E4E10066E264 /* TwodayParcel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwodayParcel.hpp; sourceTree = "<group>"; };
+		CD0D30302021F55F0066E264 /* NextdayParcel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NextdayParcel.cpp; sourceTree = "<group>"; };
+		CD0D30312021F55F0066E264 /* NextdayParcel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NextdayParcel.hpp; sourceTree = "<group>"; };
 		CD10DA192018B25200B7A57D /* ParcelDelivery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParcelDelivery; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD10DA1C2018B25200B7A57D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD10DA232018B94B00B7A57D /* ParcelPerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParcelPerson.cpp; sourceTree = "<group>"; };
+		CD10DA242018B94B00B7A57D /* ParcelPerson.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParcelPerson.hpp; sourceTree = "<group>"; };
+		CD10DA2C2018C0BA00B7A57D /* Parcel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parcel.cpp; sourceTree = "<group>"; };
+		CD10DA2D2018C0BA00B7A57D /* Parcel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Parcel.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				CD10DA1C2018B25200B7A57D /* main.cpp */,
+				CD10DA2C2018C0BA00B7A57D /* Parcel.cpp */,
+				CD10DA2D2018C0BA00B7A57D /* Parcel.hpp */,
+				CD0D302D2021E4E10066E264 /* TwodayParcel.cpp */,
+				CD0D302E2021E4E10066E264 /* TwodayParcel.hpp */,
+				CD0D30302021F55F0066E264 /* NextdayParcel.cpp */,
+				CD0D30312021F55F0066E264 /* NextdayParcel.hpp */,
+				CD10DA232018B94B00B7A57D /* ParcelPerson.cpp */,
+				CD10DA242018B94B00B7A57D /* ParcelPerson.hpp */,
 			);
 			path = ParcelDelivery;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0D302F2021E4E10066E264 /* TwodayParcel.cpp in Sources */,
 				CD10DA1D2018B25200B7A57D /* main.cpp in Sources */,
+				CD0D30322021F55F0066E264 /* NextdayParcel.cpp in Sources */,
+				CD10DA2E2018C0BA00B7A57D /* Parcel.cpp in Sources */,
+				CD10DA252018B94B00B7A57D /* ParcelPerson.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
