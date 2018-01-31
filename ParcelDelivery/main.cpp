@@ -22,15 +22,15 @@ int main(int argc, const char * argv[]) {
 
 	// standard parcel
 	Parcel standardParcelExample = Parcel(sender, recipient, weight);
-	cout << "The standard parcel cost is " << standardParcelExample.getCost() << endl;
+	cout << "The standard parcel cost is £" << standardParcelExample.getCost() << endl;
 	
 	// Two day parcel
 	TwodayParcel twodayParcelExample = TwodayParcel(sender, recipient, weight);
-	cout << "The two day parcel cost is " << twodayParcelExample.getCost() << endl;
+	cout << "The two day parcel cost is £" << twodayParcelExample.getCost() << endl;
 	
 	// Next day parcel
 	NextdayParcel nextdayParcelExample = NextdayParcel(sender, recipient, weight);
-	cout << "The next day parcel cost is " << nextdayParcelExample.getCost() << endl;
+	cout << "The next day parcel cost £" << nextdayParcelExample.getCost() << endl;
 
 	return 0;
 }
